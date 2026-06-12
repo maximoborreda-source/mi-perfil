@@ -3,38 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil de Máximo</title>
+    <title>Perfil de Máximo Emanuel Borreda</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <video autoplay muted loop class="video-fondo">
-        <source src="tu-video-de-sukuna-vs-gojo.mp4" type="video/mp4">
-    </video>
+    <header class="perfil-header">
+        <img src="maximo.jpeg" alt="Foto de Máximo" class="foto-perfil">
+        <h1>Máximo Emanuel Borreda</h1>
+        <p>Técnico en Informática Personal y Profesional (EPET N7)</p>
+        <p>Jugador profesional de Left 4 Dead 2 y Asphalt Legends Unite</p>
+        <p>Fan de Jujutsu Kaisen</p>
+    </header>
 
-    <main class="container">
-        <section class="card principal">
-            <img src="maximo.jpeg" alt="Máximo" class="foto-perfil">
-            <h1>Máximo Emanuel Borreda</h1>
-            <p><strong>Mantenimiento de computadoras</strong></p>
-            <p><strong>Jugador profesional de Left 4 Dead 2 y Asphalt Legends</strong></p>
-            <p><strong>Fan de Jujutsu Kaisen</strong></p>
-        </section>
+    <section class="video-container">
+        <h3>Video Destacado</h3>
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/TU_ID_DE_VIDEO" 
+            title="Video de Sukuna vs Gojo" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </section>
 
-        <section class="card color1">
-            <h3>Mis Metas y Comunidad</h3>
-            <ul>
-                <li>Tener una PC Gamer de alto rendimiento</li>
-                <li>Conducir mi propio Koenigsegg 1:1</li>
-            </ul>
-            <div class="contenedor-botones">
-                <!-- Se han añadido clases específicas para el color de cada botón -->
-                <a href="https://steamcommunity.com/profiles/76561199689872117/" target="_blank" class="btn-steam">Mi perfil de Steam</a>
-                <a href="https://discord.gg/p5QSeVWR" target="_blank" class="btn-discord">Comunidad de Discord</a>
-                <a href="https://www.tiktok.com/@_mxi_81" target="_blank" class="btn-tiktok">Mi perfil de TikTok</a>
-            </div>
-        </section>
-    </main>
+    <section class="metas-comunidad">
+        <h2>Mis Metas y Comunidad</h2>
+        <p>Tener una PC Gamer de alto rendimiento</p>
+        <p>Conducir mi propio Koenigsegg 1:1</p>
+        
+        <div class="botones-container">
+            <a href="https://steamcommunity.com/" class="boton">Mi perfil de Steam</a>
+            <a href="https://discord.com/" class="boton">Comunidad de Discord</a>
+            <a href="https://tiktok.com/" class="boton">Mi perfil de TikTok</a>
+        </div>
+    </section>
 
 </body>
 </html>
